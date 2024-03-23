@@ -1,32 +1,220 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title>The Brewery Band</title>
-    <style>
-      body {
-        background-color: #CCC;
-        text-align: center;
-        margin: 0;
-        padding-top: 100px;
-      }
-      h1, h2 {
-        font-family: Arial, sans-serif;
-        font-size: 50px;
-        line-height: 60px;
-        color: #333;
-        text-transform: uppercase;
-        margin-bottom: 1em;
-      }
-      h2 {
-        font-size: 20px;
-        line-height: 30px;
-        text-transform: none;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>The Brewery Band</h1>
-    <h2>Website coming soon.</h2>
-  </body>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="initial-scale=1">
+  <title>The Chilli Pickers</title>
+  <meta name="description"
+    content="The Chilli Pickers are a seasoned 4 piece from Melbourne playing Folk, Appalachian and Bluegrass tunes.">
+  <link href="./assets/5116414ca8b3c1b6a451a6694e5ad4f8cf1a6656.css" rel="stylesheet">
+
+  <style>
+    .videoWrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      padding-top: 25px;
+      height: 0;
+
+
+      margin-bottom: 50px;
+    }
+
+    .videoWrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="centering">
+    <header class="main-header">
+      <h1 class="main-header__title">
+        The Chilli Pickers
+      </h1>
+      <h2 class="main-header__subtitle h3">
+        A seasoned 4 piece from Melbourne playing Folk, Appalachian and Bluegrass tunes.
+      </h2>
+      <a href="#" class="main-header__logo">
+        <img src="./assets/logo.png" alt="The Chilli Pickers" width="176" height="184">
+      </a>
+    </header>
+  </div>
+
+  <div class="centering centering--wide">
+    <div class="slideshow">
+      <ul class="js-slides slides">
+        <li class="">
+          <img width="960" height="600" src="./assets/1.jpg" alt="">
+        </li>
+        <li class="">
+          <img width="960" height="600" src="./assets/2.jpg" alt="">
+        </li>
+        <li class="">
+          <img width="960" height="600" src="./assets/3.jpg" alt="" loading="lazy">
+        </li>
+        <li class="">
+          <img width="960" height="600" src="./assets/4.jpg" alt="" loading="lazy">
+        </li>
+        <li class="">
+          <img width="960" height="600" src="./assets/5.jpg" alt="" loading="lazy">
+        </li>
+      </ul>
+      <button class="slides-nav slides-nav--next js-slides-next" aria-label="Next photo">
+        <span>Next</span>
+      </button>
+      <button class="slides-nav slides-nav--prev js-slides-prev" aria-label="Previous photo">
+        <span>Previous</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="centering">
+    <div class="panels">
+      <div class="grid">
+        <div class="grid__item one-whole desk-one-half">
+          <div class="panel panel--about">
+            <h2 class="panel__header">The Band</h2>
+            <p>
+              <strong>The Chilli Pickers</strong> feature <strong>Jane McCracken</strong> on vocals and guitar,
+              <strong>Kate Connor</strong> on fiddle and harmonies
+              (Devil Goat Family String Band, Andy Baylor), <strong>Gus Macmillan</strong> on banjo (Blue Grassy Knoll
+              and Devil Goat Family String Band)
+              and <strong>Keith Urquhart</strong> on Double Bass. (extended bios coming soon)
+            </p>
+          </div>
+          <div class="panel panel--events">
+            <h2 class="panel__header">Bookings</h2>
+            <p>
+              Contact Gus Macmillan <br />
+              <a href="mailto:gus.macmillan@gmail.com">gus.macmillan@gmail.com</a>
+              <!-- <br /> -->
+              or <a href="tel:0412964435">0412964435</a>
+              <br>
+              <br>
+              Facebook - <a href="https://tinyurl.com/ChilliPickers">https://tinyurl.com/ChilliPickers</a>
+              <br />
+
+              Instagram - <a href="https://tinyurl.com/ChilliPickersInsta">https://tinyurl.com/ChilliPickersInsta</a>
+            </p>
+            <!-- <a class="btn btn-primary" href="tel:+61412964435">Get in touch</a> -->
+          </div>
+        </div>
+        <div class="grid__item one-whole desk-one-half">
+          <div class="panel panel--events">
+            <h2 class="panel__header">The Bio</h2>
+            <p>
+
+              The band have been playing music in the same pubs since the early 90's, but not always in the same bands,
+              or even the same genres. Now the stars have aligned, and these old musical mates have come together to
+              create a band whose whole is greater than the sum of the parts.
+            </p>
+            <p>
+
+              United by the music of <strong>Doc Boggs</strong>, <strong>Ola Belle Reed</strong>, <strong>Gillian
+                Welch</strong>, <strong>The Horseflies</strong> and <strong>Elizabeth LaPrelle</strong>.
+              the intertwining of fiddle and banjo, haunting vocal harmonies, and lyrics that are both timeless and
+              true, make this band mesmerising and energising in equal parts, like moonshine and mountain dew.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="grid__item one-whole desk-whole">
+          <div class="panel panel--events">
+            <h2 class="panel__header">Sound &amp; Video</h2>
+
+            <!-- soundcloud -->
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1794796452&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <div
+              style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+              <a href="https://soundcloud.com/school_of_banjo" title="School Of Banjo" target="_blank"
+                style="color: #cccccc; text-decoration: none;">School Of Banjo</a> · <a
+                href="https://soundcloud.com/school_of_banjo/sets/chilli-pickers-first-offering"
+                title="Chilli Pickers First Offering" target="_blank"
+                style="color: #cccccc; text-decoration: none;">Chilli Pickers First Offering</a>
+            </div>
+          </div>
+
+          <div style="text-align: center;">
+
+            <!-- little saidi -->
+            <div class="videoWrapper">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/YJlNE669qM4?si=h_9OMqNFW5rPLwPb"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <!-- wayfaring -->
+            <div class="videoWrapper">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/UIbtMVHqMCE?si=cJOtmoA3nHtd9wmI"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <!-- adiue -->
+            <div class="videoWrapper">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/xBNdmMZPjrs?si=xaINjRZgV3HU5Qui"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="centering">
+      <footer class="main-footer">
+        <small>© 2024 The Chilli Pickers. All rights reserved.</small>
+      </footer>
+    </div>
+    <script async="" defer="" src="./assets/slides.js.download"></script>
+
+
+
+
+
+
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyAN7lIoRD34KkwKhNll8O49AhvNFldpIBI",
+        authDomain: "chillipickers.firebaseapp.com",
+        projectId: "chillipickers",
+        storageBucket: "chillipickers.appspot.com",
+        messagingSenderId: "482095581496",
+        appId: "1:482095581496:web:93e977eb404d28b8b219cd",
+        measurementId: "G-PCFD220SCL"
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+
+
+
+</body>
+
 </html>

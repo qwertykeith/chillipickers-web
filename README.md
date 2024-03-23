@@ -1,4 +1,3 @@
-breweryband.co.uk
-=================
 
-Static site for The Brewery Band
+
+deploy: `firebase deploy`
