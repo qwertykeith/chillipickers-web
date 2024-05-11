@@ -508,6 +508,98 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.17.2.tgz#5a2d08b81e8064b34242d5cc9973ef8dd1e60503"
   integrity sha512-TGGO7v7qOq4CYmSBVEYpI1Y5xDuCEnbVC5Vth8mOsW0gDSzxNrVERPc790IGHsrT2dQSimgMr9Ub3Y1Jci5/8w==
 
+"@stdlib/assert-has-own-property@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@stdlib/assert-has-own-property/-/assert-has-own-property-0.2.1.tgz#60a656c65352df27b244ab322f6eef70931b3cf2"
+  integrity sha512-TNx+PlR1kGG6Ypg9aiHpHzaIYI8iaKAj7Ad1r/A6BlbkA/czzJMMidJE91uDlpgrMAIILAT68MRXt3kD6X2tAw==
+
+"@stdlib/assert-has-symbol-support@^0.2.0":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@stdlib/assert-has-symbol-support/-/assert-has-symbol-support-0.2.1.tgz#3ebe7f6fd0511518db78c448fe7670bdc20e9d6d"
+  integrity sha512-a0N1kI/csNiPZ/0lad7ATOIMSXgpm0mCBjV95TgA4+Dmmruol0DK3PrP4n+NuoziTLzRSM/CRgEtLQI5X9g6mQ==
+
+"@stdlib/assert-has-tostringtag-support@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@stdlib/assert-has-tostringtag-support/-/assert-has-tostringtag-support-0.2.1.tgz#8176b6068571f5a8cc19db3fb915dc61fcb98a91"
+  integrity sha512-cWhgirurOsVJzHSSU0GdX5HqHGF2DRWXPk7xbQ4OPhu0x4yeOa2WAupPf7PHQ0pMD++IoWW3I16Gr310WjLDeg==
+  dependencies:
+    "@stdlib/assert-has-symbol-support" "^0.2.0"
+
+"@stdlib/assert-is-string@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@stdlib/assert-is-string/-/assert-is-string-0.2.1.tgz#1e6f6be14a8a0ca3b8008f7ef71a436d384aeec6"
+  integrity sha512-xphxm9i61By/M7cmyCqgPiDof4DP3Rms3lVdcCpkr7T9PkBFMhOlm6zyhxo/2+dhukjf4Sak/WqntF/CWgJFJw==
+  dependencies:
+    "@stdlib/assert-has-tostringtag-support" "^0.2.1"
+    "@stdlib/utils-define-nonenumerable-read-only-property" "^0.2.1"
+    "@stdlib/utils-native-class" "^0.2.1"
+
+"@stdlib/error-tools-fmtprodmsg@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@stdlib/error-tools-fmtprodmsg/-/error-tools-fmtprodmsg-0.2.1.tgz#e47f2e6a4981a47992ff658af4de205e6d16a833"
+  integrity sha512-SaxvGeGfWfda/O3rTNGRGBzAL9gsY/yd8n1hXwzOl/2aUHf8nxcf6Fz6/BQ5PguT0GiBkca19XEhHZZHxX3X/g==
+
+"@stdlib/string-base-capitalize@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@stdlib/string-base-capitalize/-/string-base-capitalize-0.2.1.tgz#5b1a3c21f489b82585d5fc7ab1447b773397681d"
+  integrity sha512-b67VZRc2Lqk/SCdlPnj9xe2pnSoomLHgtWWVmf2vhJxeX8WBOBALDUb0y6MeWTJMk103YH7cGmrcw1VQi9zQ1Q==
+
+"@stdlib/string-base-format-interpolate@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@stdlib/string-base-format-interpolate/-/string-base-format-interpolate-0.2.1.tgz#56ab9ba5d227ca3b9b2f2f15ea98954ade3130a5"
+  integrity sha512-Uxz89eUi4m9yao4VjsqXIxLIF7qDmqEAH0e+XBRWRGC2zx6DhmK2kLnaU0xW69+VJPn3dq4itxq0oryw2E+qIQ==
+
+"@stdlib/string-base-format-tokenize@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@stdlib/string-base-format-tokenize/-/string-base-format-tokenize-0.2.1.tgz#02362c81dbb079c53649a6838e8d85aad8bb3a13"
+  integrity sha512-3Ut96pmCgEFArrdwXKm1q0j1FOqTnG/uOsh24uYNU/ABRsMOOajRlAjCCdQv9f8P916qPrSnF1V3Pd18LAaksg==
+
+"@stdlib/string-capitalize@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@stdlib/string-capitalize/-/string-capitalize-0.2.1.tgz#65a1054ded9d0b68d0ab0097f5ac3048c8aea37a"
+  integrity sha512-CFFSC7pqceB+jWlj98HpG7nwt3NMUUVn7zm8Ra0E+MGveeVoilfVxUSBsbuJDnW+hH7yjrS2cAAK5AszW2ZuOQ==
+  dependencies:
+    "@stdlib/assert-is-string" "^0.2.1"
+    "@stdlib/string-base-capitalize" "^0.2.1"
+    "@stdlib/string-format" "^0.2.1"
+
+"@stdlib/string-format@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@stdlib/string-format/-/string-format-0.2.1.tgz#00b8c978439ff7216416bcfb45593e0f88b36a15"
+  integrity sha512-+HpXkEJ0Z4gthH5KicXvRRJiCiCTSrKzM+mS8N6vwaAD+OG+Oq8Cn43XBD1ic/UHROI9un42MruF1ZLlkSmdOw==
+  dependencies:
+    "@stdlib/string-base-format-interpolate" "^0.2.1"
+    "@stdlib/string-base-format-tokenize" "^0.2.1"
+
+"@stdlib/symbol-ctor@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@stdlib/symbol-ctor/-/symbol-ctor-0.2.1.tgz#89e23625d517c9263c2bf66a578b93083e432737"
+  integrity sha512-ZZAuKPJZ9PVrbRCp4iPKdlyh7uyrCi39dqrU/j/w38mOzYZJV6utK33eeAIsQH5yMDO7Tr0Zu69TKGf2XqmaPw==
+
+"@stdlib/utils-define-nonenumerable-read-only-property@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@stdlib/utils-define-nonenumerable-read-only-property/-/utils-define-nonenumerable-read-only-property-0.2.1.tgz#3992152507d5ea2aaf7082f3c8882b858027eb3e"
+  integrity sha512-L8fs1kI79T2RQIg8rHR9aQnnSDELqiDGWbK3jA1NP8iW+ydxlxXyO8Dw17fBCXVua3Y19a1NVyGtIN5WGe2UCw==
+  dependencies:
+    "@stdlib/utils-define-property" "^0.2.1"
+
+"@stdlib/utils-define-property@^0.2.1":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@stdlib/utils-define-property/-/utils-define-property-0.2.3.tgz#37397f5fcbc802d171c332b1a84a478624d3799d"
+  integrity sha512-+EzWImaQR/6XNFbXIITFi3PLQGTbKVIWSYxJfHXAuTtibAMnhHOWvEzKOumVe/Q4Cdsrc3/PIkpjJzliqAX9AA==
+  dependencies:
+    "@stdlib/error-tools-fmtprodmsg" "^0.2.1"
+    "@stdlib/string-format" "^0.2.1"
+
+"@stdlib/utils-native-class@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@stdlib/utils-native-class/-/utils-native-class-0.2.1.tgz#87c77bbfcc422040aa994cc64d6c998975438a14"
+  integrity sha512-tM3am6amt50I4mFRlClExUmORqPzMExgDyZc4Lur+LXn5wb0uEoeBbJ27ftMDg8PNLSi5RUuBCwZBEXvYpG0yw==
+  dependencies:
+    "@stdlib/assert-has-own-property" "^0.2.1"
+    "@stdlib/assert-has-tostringtag-support" "^0.2.1"
+    "@stdlib/symbol-ctor" "^0.2.1"
+
 "@types/babel__core@^7.20.5":
   version "7.20.5"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.20.5.tgz#3df15f27ba85319caa07ba08d0721889bb39c017"

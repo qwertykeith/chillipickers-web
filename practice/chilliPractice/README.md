@@ -16,3 +16,7 @@ run (m4a format)
 ```
 ./download.sh https://www.youtube.com/watch?v=AzrfJws6l_o elkriver
 ```
+
+deploy
+
+`yarn deploy`
