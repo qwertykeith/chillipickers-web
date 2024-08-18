@@ -34,11 +34,11 @@ const App = () => {
     </div>}
 
     <div style={{ position: "fixed", top: 150, overflow: "auto", height: "90vh", left: 0, right: 0 }}>
-      <div style={{ maxWidth: 600, bottom: 0, display: "inline-block", paddingTop: 0, margin: "auto", marginTop: 0 }}>
+      <div style={{ maxWidth: 600, bottom: 0, display: "inline-block", paddingTop: 0, margin: "auto", marginTop: 0, paddingBottom: 150 }}>
         <span style={{}}>
           <button style={{ margin: 5, borderWidth: 0, borderColor: "#ccc" }} type='button' onClick={() => setSong(songs[Math.floor(Math.random() * songs.length)])}>🎲</button>
         </span>
-        {songs.map(s =>
+        {[...songs].sort((a, b) => a.localeCompare(b)).map(s =>
           <span key={s} style={{ fontWeight: song === s ? "bolder" : "normal" }}>
             <button style={{ margin: 5, borderWidth: song === s ? 3 : 0, borderColor: "#ccc" }} type='button' onClick={() => setSong(s)}>{fixName(s)}</button>
           </span>
@@ -81,7 +81,7 @@ const Player = (props: {
 }
 
 
-const fixName = (n: string) => capitalizeAllWords(camelCaseToWords(capitalizeAllWords(n).replaceAll("-", " "))).split(".")[0]
+const fixName = (n: string) => capitalizeAllWords(camelCaseToWords(capitalizeAllWords(n).replaceAll("-", " "))).split(".")[0].replaceAll("_", "'")
 
 const camelCaseToWords = (s: string) => {
   const result = s.replace(/([A-Z])/g, ' $1')
