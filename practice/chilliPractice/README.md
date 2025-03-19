@@ -9,14 +9,16 @@ sudo apt install yt-dlp                         # Install yt-dlp
 
 update
 
-`yt-dlp -U `
+`yt-dlp -U`
 
 run (m4a format)
+
+uncomment bit we need in download.sh
 
 ```
 ./download.sh https://www.youtube.com/watch?v=AzrfJws6l_o elkriver
 ```
 
-deploy
+# deploy
 
 `yarn deploy`
