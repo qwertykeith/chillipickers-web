@@ -19,6 +19,12 @@ uncomment bit we need in download.sh
 ./download.sh https://www.youtube.com/watch?v=AzrfJws6l_o elkriver
 ```
 
+# sync
+
+sync audio files and create list
+
+`./sync.sh`
+
 # deploy
 
 `yarn deploy`
